@@ -96,7 +96,7 @@ function calcFactory(val, callback) {
     };
 }
 
-const calc = calcFactory(10, alert);
+const calc = calcFactory(10, console.log);
 calc.plus(5); 
 calc.minus(3); 
 calc.multiply(3);
